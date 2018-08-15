@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+	<style>
+		.top{
+			text-align: center;
+			color: black;
+			}	
+		.p1{
+			text-align: center;
+			color: black;
+		}
+		.form{
+			white-space: pre;
+			font-size: 22px;
+		}
+		.table {
+			text-align: center;
+			border: 1px solid black;
+			border-width: 1px;
+			border-collapse: collapse;
+		}
+		.td{
+
+			border:  1px solid black;
+			padding-left: 52px;
+			padding-right: 72px;
+			font-size:22px
+		}
+		
+		
+	</style>
+	<head>
+		<meta charset="UTF-8">
+		<title>HealthMate Report</title>
+	</head>
+	<body>
+
+			<h1 class="top">HealthMate Report</h1>
+			<p class="p1">This report is generated from the HealthMate Mobile App</p1></br></br>
+
+<div class="form">
+Name: #name#		                               Gender: #gender#		     Report Date: #reportdate#
+
+Blood pressure Readings			        Period: #period#                 Report Time:#reporttime#
+	
+</div></br></br>
+		
+		
+		<table class="table">
+			<tr>
+				<td class="td">Date</td>
+				<td class="td">Time</td>
+				<td class="td">Dialostic</td>
+				<td class="td">Systolic</td>
+				<td class="td">Pulse</td>
+				<td class="td">position</td>
+				<td class="td">Location</td>
+				<td class="td">Remark</td>
+			</tr>
+			
+				#items#</br>
+		
+		</table>	
+	</body>
+</html>
